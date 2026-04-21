@@ -36,8 +36,8 @@ with zero manual copywriting.
 ---
 
 ## My Role
-**AI Engineering Lead** — designed and built the full agent pipeline, 
-brand-memory layer, validation gate, and Next.js review dashboard.
+**AI Engineer** — designed and built the agent pipeline, 
+brand-memory layer, validation gate
 
 Full team repo: [github.com/mcadario/BAINSA-Social-Media-Manager](https://github.com/mcadario/BAINSA-Social-Media-Manager)
 
