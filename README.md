@@ -3,7 +3,7 @@
 > Built for BAINSA (Bocconi Association in Artificial Intelligence and Neuroscience)
 
 ## What it does
-OpenClaw is a 4-agent, 5-stage automated content pipeline that takes a brand PDF 
+The project is a 4-agent, 5-stage automated content pipeline that takes a brand PDF 
 and a research brief and outputs fully compliant, brand-accurate content — 
 with zero manual copywriting.
 
