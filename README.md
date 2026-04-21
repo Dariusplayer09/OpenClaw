@@ -13,15 +13,17 @@ with zero manual copywriting.
 
 ## Pipeline Architecture
 
-[Brand PDF] → Agent 1: PDF Parser → structured brand memory (Markdown/JSON)
-                                          ↓
-[Research MD] → Agent 2: Research Processor
-                                          ↓
-                          Agent 3: LLM Copy Generator
-                                          ↓
-                          Next.js Approval Dashboard (human-in-the-loop)
-                                          ↓
-                          Agent 4: Validation Gate (fail-closed)
+```mermaid
+flowchart TD
+    A[📄 Brand PDF] --> B[Agent 1: PDF Parser]
+    B --> C[Brand Memory Layer\nMarkdown / JSON]
+    D[📝 Research MD] --> E[Agent 2: Research Processor]
+    C --> F[Agent 3: LLM Copy Generator]
+    E --> F
+    F --> G[Next.js Approval Dashboard\nhuman-in-the-loop]
+    G --> H[Agent 4: Validation Gate\nfail-closed]
+    H --> I[✅ Published Content]
+```
 
 ---
 
